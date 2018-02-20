@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitso</title>
+    <link rel="stylesheet" href="css/bitso.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header id="header-contenedor">
+        <div class="container">
+            <nav class="navbar navbar-expand-md  justify-content-between">
+                <a href="index.html" class="navbar-brand">
+                    <img class="logo" src="img/bitso.svg" alt="bitso">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">&#9776;</span>
+                </button>
+                <div class="collapse navbar-collapse float-right" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-light dropdown-toggle mtwm-dropdown-toogle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    1 BTC = 207165.20 MXN
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <button class="dropdown-item" type="button">1 ETH = 17505.07 MXN</button>
+                                    <button class="dropdown-item" type="button">1 XRP = 0.0001004 BTC</button>
+                                    <button class="dropdown-item" type="button">1 XRP = 20.75 MXN</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">Developers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase mx-4" href="#">En</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit">
+                            <span>Abrir cuenta</span>
+                        </button>
+                        &nbsp;
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <span>Entrar</span>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container d-none d-sm-none d-sm-block d-md-none d-md-block">
+        <div class="row logos-container">
+            <div class="col">
+                <a href="http://eleconomista.com.mx/tecnociencia/2015/06/25/bitso-habilita-envios-banca-movil-transfer-bitcoins" target="_blank">
+                    <img src="img/logos/eleconomista_press_off.png" id="imgElEconomista" title="Fallo al cargar" height="40">
+                </a>
+            </div>
+            <div class="col">
+                <a href="http://www.cnnexpansion.com/tecnologia/2015/07/28/invierte-en-bitcoin-y-protegete-del-super-dolar" target="_blank">
+                    <img src="img/logos/cnn_off_03.png" id="imgCnn" title="Fallo al cargar" height="40">
+                </a>
+            </div>
+            <div class="col">
+                <a href="http://fortune.com/2015/06/10/bitcoin-consolidation-mexico/" target="_blank">
+                    <img src="img/logos/fortune_off_05.png" id="imgFortune" title="Fallo al cargar" height="40">
+                </a>
+            </div>
+            <div class="col">
+                <a href="http://www.coindesk.com/bitcoin-opportunity-corp-mexico-bitso/" target="_blank">
+                    <img src="img/logos/coindesk_off_07.png" id="imgCoinDesk" title="Fallo al cargar" height="40">
+                </a>
+            </div>
+            <div class="col">
+                <a href="http://www.centrodeinnovacionbbva.com/opentalent/finalistas" target="_blank">
+                    <img src="img/logos/bbva_off_09.png" id="imgBBVA" title="Fallo al cargar" height="40">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <div class="jumbotron products-container">
+            <h6 class="text-center text-uppercase">Productos</h6>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <ul class="ml-5 mtwm-ul-producs">
+                        <li class="text-uppercase mb-2 pl-2 selected">Bitso App</li>
+                        <li class="text-uppercase pl-2">Exchange</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/phone_ledger.png" alt="" srcset="" height="350">
+                </div>
+                <div class="col-md-4">
+                    <h6>Bitsp App</h6>
+                    <p>
+                        Compra, vende, envía y recibe Bitcoin, Ether y otras crypto desde cualquier lugar.
+                    </p>
+                    <a href="http://" class="btn btn-outline-success"x target="_blanck">Descarga la App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/bitso.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+
+</html>
